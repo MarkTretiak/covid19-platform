@@ -67,7 +67,7 @@ Check that your active warehouse (`COMPUTE_WH`) has a `resource_monitor` value, 
 
 Run in **Snowflake**, then **terminal**
 
-1. Explore the raw dataset - run `sql/exploration.sql` in Snowsight.
+1. Explore the raw dataset - run `sql/exploration.sql` in Snowflake.
 2. Run the enrichment pipeline (pivots the dataset, joins population data, writes `COVID_ENRICHED`, and generates the EDA report):
    ```bash
    python python/etl/enrich_dataset.py
@@ -177,7 +177,7 @@ covid19-platform/\
 │ ├── api/ --> FastAPI backend + caching\
 │ ├── dashboard/ --> Dash frontend\
 │ └── analytics/ --> Forecasting + clustering\
-└── docs/ --> Generated EDA report, cluster output, final written report\
+└── docs/ --> Generated EDA report, cluster output, final written report
 
 ## API Endpoints
 
