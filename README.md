@@ -170,14 +170,14 @@ Run `sql/match_recognize.sql`. Contains two queries: one on cumulative case tota
 
 ## Project structure
 covid19-platform/
-├── sql/ --> Snowflake worksheets (resource monitor, exploration, performance, MATCH_RECOGNIZE)
-├── mongo/ --> MongoDB schema design + seed script
-├── python/
-│ ├── etl/ --> Snowflake connection helper + enrichment pipeline
-│ ├── api/ --> FastAPI backend + caching
-│ ├── dashboard/ --> Dash frontend
-│ └── analytics/ --> Forecasting + clustering
-└── docs/ --> Generated EDA report, cluster output, final written report
+├── sql/ --> Snowflake worksheets (resource monitor, exploration, performance, MATCH_RECOGNIZE)\
+├── mongo/ --> MongoDB schema design + seed script\
+├── python/\
+│ ├── etl/ --> Snowflake connection helper + enrichment pipeline\
+│ ├── api/ --> FastAPI backend + caching\
+│ ├── dashboard/ --> Dash frontend\
+│ └── analytics/ --> Forecasting + clustering\
+└── docs/ --> Generated EDA report, cluster output, final written report\
 
 ## API Endpoints
 
